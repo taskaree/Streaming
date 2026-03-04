@@ -106,8 +106,8 @@ const prepareVideos = () => {
   });
 };
 
-// prepareVideos();
-prepareChunks();
+prepareVideos();
+// prepareChunks();
 
 const sendServiceStartNotification = () => {
   if (port != 5000) {
